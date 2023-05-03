@@ -1,0 +1,452 @@
+.center-div {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 1000px;
+  margin: 50px;
+}
+
+.login-form {
+  width: 440px;
+  height: 250px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #798b92;
+}
+
+.text-input {
+  width: 300px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 110%;
+  border: none;
+  color: #363636;
+}
+
+.input-label {
+  font-family: sans-serif;
+  color: white;
+  margin-right: 20px;
+  font-size: 120%;
+}
+
+.login-button {
+  font-family: sans-serif;
+  width: 120px;
+  height: 35px;
+  padding: 5px;
+  color: black;
+  background-color: white;
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.login-button:hover {
+  background-color: #e2e2e2;
+}
+
+.form-alignment {
+  align-self: flex-end;
+  display: flex;
+  align-items: baseline;
+}
+
+.back {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  font-size: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #798b92;
+  color: white;
+}
+.back:hover {
+  background-color: #8ea5af;
+}
+
+.name-label {
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+  padding-block: 10px;
+  text-align: center;
+  padding-inline: 25px;
+  font-family: sans-serif;
+  font-size: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #429ec2;
+  color: white;
+}
+
+.account-type {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-size: 300%;
+  font-family: sans-serif;
+  border-radius: 20px;
+  background-color: #798b92;
+  transition-duration: 0.5s;
+  flex: 0;
+  white-space: nowrap;
+}
+.account-type:hover {
+  transition-duration: 0.5s;
+  background-color: #8ea5af;
+}
+
+#driverimg {
+  width: 200px;
+  margin-right: 50px;
+  object-fit: contain;
+}
+
+#riderimg {
+  margin-right: 50px;
+  width: 70px;
+}
+
+#logoS {
+  width: 500px;
+  margin: 30px;
+}
+
+.signup-form-rider {
+  width: 630px;
+  height: 550px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #798b92;
+}
+.signup-form-driver {
+  width: 630px;
+  height: 700px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #798b92;
+}
+
+.text-input-sm {
+  margin-right: 20px;
+  width: 150px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 110%;
+  border: none;
+  color: #363636;
+}
+.text-input-bg {
+  margin-right: 20px;
+  width: 400px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 110%;
+  border: none;
+  color: #363636;
+}
+
+.text-input-md {
+  margin-right: 20px;
+  width: 300px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 110%;
+  border: none;
+  color: #363636;
+}
+
+.map-split {
+  flex: 1;
+  text-align: center;
+  border: 1px solid #798b92;
+  width: 100%;
+}
+
+.map {
+  height: 500px;
+}
+
+.confirm {
+  width: 150px;
+  height: 50px;
+  font-size: 100%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #798b92;
+}
+.confirm:hover {
+  background-color: #8ea5af;
+}
+
+.buttons-split {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  align-items: center;
+  align-self: center;
+}
+
+.location {
+  width: 150px;
+  height: 50px;
+  font-size: 100%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #5d9c59;
+}
+
+.increment {
+  margin-top: 10px;
+  width: 45px;
+  height: 45px;
+  font-size: 140%;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  background-color: #798b92;
+}
+.increment:hover {
+  background-color: #8ea5af;
+}
+
+.passengers {
+  text-align: center;
+  font-size: 120%;
+  font-family: sans-serif;
+  margin: 10px;
+  color: white;
+}
+#passengers {
+  color: white;
+  font-size: 100%;
+  margin-inline: 10px;
+  font-family: sans-serif;
+}
+.passengers-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #798b92;
+  border-radius: 10px;
+  padding-block: 20px;
+  padding-inline: 10px;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job {
+  margin: 10px;
+  display: flex;
+  width: 80%;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: space-between;
+  background-color: #798b92;
+}
+
+.car-icon {
+  width: 200px;
+}
+
+.job-data {
+  display: flex;
+  align-items: center;
+  font-size: 200%;
+  font-family: sans-serif;
+  white-space: nowrap;
+  color: white;
+}
+
+.accept-job {
+  width: 100px;
+  height: 40px;
+  font-size: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  align-self: center;
+}
+.accept-job:hover {
+  background-color: rgb(0, 145, 0);
+}
+
+.dropdown {
+  position: absolute;
+  margin-top: 2.4rem;
+  right: 0;
+  margin-right: 1rem;
+  padding: 10px;
+  border: none;
+  background-color: #429ec2;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.dropdown-button {
+  background-color: #429ec2;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2px;
+  font-size: 100%;
+  color: white;
+}
+.dropdown-button:hover {
+  background-color: #78b3ca;
+}
+
+#deleteconfirm {
+  z-index: 10;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(128, 128, 128, 0.5);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.prompt {
+  font-family: sans-serif;
+  font-size: 200%;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: #798b92;
+  color: white;
+}
+
+.prompt-button {
+  margin-inline: 20px;
+  width: 100px;
+  margin-top: 20px;
+  background-color: #798b92;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 100%;
+  color: white;
+}
+.prompt-button:hover {
+  background-color: #8ea5af;
+}
+
+.header {
+  margin-block: 10px;
+  color: white;
+  font-size: 100%;
+  font-family: sans-serif;
+  background-color: #798b92;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-start {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.header-button {
+  width: 100px;
+  background-color: #798b92;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 100%;
+  color: white;
+}
+.header-button:hover {
+  background-color: #8ea5af;
+}
+
+.rider-icon {
+  width: 50px;
+}
+
+.wrong-password {
+  color: red;
+  font-size: 80%;
+  font-family: sans-serif;
+  margin-top: 5px;
+  visibility: hidden;
+}
+
+.password-div {
+  text-align: right;
+  align-self: flex-end;
+}
+
+.red-asterix {
+  color: red;
+  display: inline;
+}
+
+.map-text-split {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 100%;
+  font-family: sans-serif;
+  margin: 30px;
+}
+
+.map-text {
+  background-color: #798b92;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.delete-job {
+  width: 100px;
+  height: 40px;
+  font-size: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  align-self: center;
+}
+.delete-job:hover {
+  background-color: rgb(255, 41, 41);
+}
